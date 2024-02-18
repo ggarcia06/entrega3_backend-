@@ -1,0 +1,83 @@
+[
+    {
+		"title": "uvas",
+		"description": "uvas",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 36478,
+		"stock": 20,
+		"id": 1
+	},
+	{
+		"title": "naranja",
+		"description": "naranja",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 98478,
+		"stock": 36,
+		"id": 2
+	},
+	{
+		"title": "mandarina",
+		"description": "mandarina",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 82478,
+		"stock": 36,
+		"id": 3
+	},
+	{
+		"title": "mango",
+		"description": "mango",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 29478,
+		"stock": 18,
+		"id": 4
+	},
+	{
+		"title": "frutilla",
+		"description": "frutilla",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 54478,
+		"stock": 18,
+		"id": 5
+	},
+	{
+		"title": "manzana",
+		"description": "manzana",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 51323,
+		"stock": 30,
+		"id": 6
+	},
+    {
+		"title": "arandanos",
+		"description": "arandanos",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 98731,
+		"stock": 22,
+		"id": 7
+	},
+    {
+		"title": "kiwi",
+		"description": "kiwi",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 11779,
+		"stock": 25,
+		"id": 8
+	},
+    {
+		"title": "coco",
+		"description": "coco",
+		"price": 2500,
+		"thumbnail": "http://....",
+		"code": 88552,
+		"stock": 32,
+		"id": 9
+	}
+]
