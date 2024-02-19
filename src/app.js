@@ -17,13 +17,10 @@ app.get("/products", async (req,res) => {
 
     const productsbd = await products.getProducts()
 
-    let limit = req.params
-
-    // let data = users.find((user)=> (user.id == userId))
-
-    // if(!data) return res.send("Usuario no encontrado")
-
-    res.send(productsbd)
+    let limit = parseInt(req.query.limit) || productsbd.length
+    const finalProductsbd = productsbd.slice(0,limit)
+    
+    res.send(finalProductsbd)
 
 })
 
