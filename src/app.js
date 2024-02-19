@@ -2,7 +2,7 @@ import ProductManager from "./ProductManager.js";
 import express from "express";
 
 
-
+const products = new ProductManager("././productos.json")
 const app = express()
 const port = 8080
 
@@ -13,7 +13,7 @@ app.listen(port, () => console.log("Servidor corriendo en el puerto", port))
 
 app.get("/products", async (req,res) => {
 
-    const products = new ProductManager("././productos.json")
+
 
     const productsbd = await products.getProducts()
 
@@ -23,6 +23,16 @@ app.get("/products", async (req,res) => {
     res.send(finalProductsbd)
 
 })
+
+app.get("/products/:pid", async (req,res) => {
+
+    let pid = parseInt(req.params.pid)
+    const result = await products.getProductsById(pid)
+    
+    res.send(result)
+
+})
+
 
 
 
